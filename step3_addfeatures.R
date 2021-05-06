@@ -2,7 +2,7 @@ library(data.table)
 library(randomForest)
 library(plyr)
 
-setwd('/Users/klarow/Desktop/ComputationalLabs/Project/Data')
+setwd('/Users/knar/Desktop/ComputationalLabs/Project/Data')
 rawdat <- fread("step2processed.csv")
 data <- data.table(rawdat)
 
