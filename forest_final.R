@@ -15,7 +15,7 @@ library(randomForest)
 library(plyr)
 library(ROCR)
 
-setwd('/Users/klarow/Desktop/ComputationalLabs/Project/Data')
+setwd('/Users/knar/Desktop/ComputationalLabs/Project/Data')
 rawdat <- fread("model_finalv1")
 #rawdat <- fread("modelready.csv")
 data <- data.table(rawdat)
