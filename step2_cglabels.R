@@ -11,7 +11,7 @@ library(tm)
 library(dplyr)
 
 #feed in processed data from step1 script
-setwd('/Users/klarow/Desktop/ComputationalLabs/Project/Data')
+setwd('/Users/knar/Desktop/ComputationalLabs/Project/Data')
 wordprocessed <- fread("step1processed.csv")
 #wordprocessed <- fread("testingclean1.notes.csv")
 data <- data.table(wordprocessed)
