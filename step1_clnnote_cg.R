@@ -15,7 +15,7 @@ library(SnowballC)
 library(tm)
 library(dplyr)
 
-setwd('/Users/klarow/Desktop/ComputationalLabs/Project/Data')
+setwd('/Users/knar/Desktop/ComputationalLabs/Project/Data')
 
 noteevents <- fread("NOTEEVENTS.csv")
 caregivers <- fread("CAREGIVERS.csv")
